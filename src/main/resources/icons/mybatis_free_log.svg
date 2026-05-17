@@ -1,0 +1,23 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="MyBatis Free Log">
+  <defs>
+    <linearGradient id="mfl_bg" x1="0" y1="0" x2="0" y2="1" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1E88E5"/>
+      <stop offset="1" stop-color="#0D47A1"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="38" height="38" rx="8" fill="url(#mfl_bg)"/>
+  <path d="M1 32c0-2.2 1.8-4 4-4h30c2.2 0 4 1.8 4 4v5c0 .55-.45 1-1 1H2a1 1 0 0 1-1-1V32z" fill="#08345C"/>
+  <path d="M9 6h16l2 2v20a2 2 0 0 1-2 2H9a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2Z" fill="#F5FAFF" stroke="#B3E5FC" stroke-width="0.8"/>
+  <path d="M25 6v2.5A1.5 1.5 0 0 0 26.5 10H30l-3-4h-2Z" fill="#E3F2FD"/>
+  <rect x="10.5" y="10" width="12" height="1.1" rx="0.4" fill="#B0BEC5"/>
+  <rect x="10.5" y="12.4" width="10" height="1.1" rx="0.4" fill="#B0BEC5"/>
+  <rect x="10.5" y="14.8" width="8" height="1.1" rx="0.4" fill="#B0BEC5"/>
+  <text x="10" y="24" font-family="ui-sans-serif,system-ui,Segoe UI,Helvetica,Arial" font-size="4" font-weight="700" fill="#1565C0">SQL</text>
+  <text x="10" y="28" font-family="Consolas,ui-monospace,monospace" font-size="3" fill="#90A4AE">&lt;/&gt;</text>
+  <circle cx="28" cy="25" r="5.1" fill="none" stroke="#fff" stroke-width="2" opacity="0.95"/>
+  <circle cx="28" cy="25" r="2.6" fill="#0B3A63"/>
+  <rect x="25.2" y="23.3" width="5.5" height="0.7" fill="#FF8A65" rx="0.2"/>
+  <rect x="25.2" y="24.3" width="5.5" height="0.7" fill="#7CB342" rx="0.2"/>
+  <rect x="25.2" y="25.3" width="5.5" height="0.7" fill="#4FC3F7" rx="0.2"/>
+  <line x1="32" y1="30" x2="35" y2="33.2" stroke="#fff" stroke-width="2.1" stroke-linecap="round"/>
+</svg>

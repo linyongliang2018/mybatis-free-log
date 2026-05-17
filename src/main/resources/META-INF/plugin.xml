@@ -1,0 +1,29 @@
+<!-- Plugin configuration: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
+<idea-plugin>
+    <id>com.swqsv.mybatis-free-log</id>
+    <name>MyBatis Free Log</name>
+    <vendor url="https://github.com">swqsv</vendor>
+
+    <description><![CDATA[
+        Parse MyBatis <code>Preparing</code> and <code>Parameters</code> lines from the Run/Debug console, restore
+        executable SQL in a tool window, with copy and clear. 从运行/调试控制台解析 MyBatis 日志并在工具窗口展示可执行 SQL。
+    ]]></description>
+
+    <depends>com.intellij.java</depends>
+    <depends>com.intellij.modules.lang</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <applicationService
+                serviceImplementation="com.swqsv.mybatisfreelog.MyBatisLogSettings"/>
+        <projectService
+                serviceImplementation="com.swqsv.mybatisfreelog.MyBatisLogService"/>
+        <consoleFilterProvider
+                implementation="com.swqsv.mybatisfreelog.MyBatisConsoleFilterProvider"/>
+        <toolWindow
+                id="MybatisFreeLog"
+                icon="/icons/mybatis_free_log.svg"
+                anchor="bottom"
+                factoryClass="com.swqsv.mybatisfreelog.MyBatisToolWindowFactory"
+                canCloseContents="true"/>
+    </extensions>
+</idea-plugin>
